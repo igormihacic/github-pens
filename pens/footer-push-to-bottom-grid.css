@@ -1,0 +1,30 @@
+body {
+	display: grid;
+	grid-template-rows: min-content auto min-content;
+	height: 100vh;
+}
+
+header {
+	background-color: darkgrey;
+	text-align: center;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+}
+
+main {
+}
+
+footer {
+	background-color: darkgrey;
+	text-align: center;
+	padding: 20px;
+}
+
+.myContent {
+	background-color: beige;
+	padding: 20px;
+	max-width: 400px;
+	min-height: 400px;
+	margin: 0 auto;
+}

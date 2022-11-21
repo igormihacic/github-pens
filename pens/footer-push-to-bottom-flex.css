@@ -1,0 +1,33 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: darkgrey;
+	text-align: center;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+}
+
+main {
+	flex-grow: 1;
+	width: 100%;
+}
+
+footer {
+	background-color: darkgrey;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+
+.myContent {
+	background-color: beige;
+	padding: 20px;
+	max-width: 400px;
+	min-height: 400px;
+	margin: 0 auto;
+}
